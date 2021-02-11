@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+        <item
+            android:id="@+id/papel_papelao"
+            android:title="Papel / Papelão"
+            app:actionLayout="@layout/widget_check"
+            android:onClick="onCheckboxClicked"
+            android:checked="true"
+            android:tooltipText="papel"/>
+        <item
+            android:id="@+id/vidro"
+            android:title="Vidro"
+            app:actionLayout="@layout/widget_check"
+            android:onClick="onCheckboxClicked"
+            android:checked="true"
+            android:tooltipText="vidro" />
+        <item
+            android:id="@+id/plastico_pet"
+            android:title="Plásticos e Garrafa pet"
+            android:onClick="onCheckboxClicked"
+            app:actionLayout="@layout/widget_check"
+            android:checked="true"
+            android:tooltipText="plástico" />
+        <item
+            android:id="@+id/tetra_pak"
+            android:title="Tetra Pak (caixa de leite)"
+            android:onClick="onCheckboxClicked"
+            app:actionLayout="@layout/widget_check"
+            android:checked="true"
+            android:tooltipText="tetra" />
+        <item
+            android:id="@+id/metais"
+            android:title="Ferro / Cobre / Alumínio / Outros"
+            android:onClick="onCheckboxClicked"
+            app:actionLayout="@layout/widget_check"
+            android:checked="true"
+            android:tooltipText="metais" />
+        <item
+            android:id="@+id/baterias_eletronicos"
+            android:title="Baterias e Eletrônicos"
+            android:onClick="onCheckboxClicked"
+            app:actionLayout="@layout/widget_check"
+            android:checked="true"
+            android:tooltipText="baterias"  />
+        <item
+            android:id="@+id/oleo_cozinha"
+            android:title="Oléo de cozinha"
+            android:onClick="onCheckboxClicked"
+            app:actionLayout="@layout/widget_check"
+            android:checked="true"
+            android:tooltipText="óleo" />
+
+
+</menu>

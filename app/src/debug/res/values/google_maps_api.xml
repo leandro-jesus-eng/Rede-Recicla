@@ -1,0 +1,34 @@
+<resources>
+    <!--
+    TODO: Before you run your application, you need a Google Maps API key.
+
+    To get one, follow this link, follow the directions and press "Create" at the end:
+
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=41:39:A6:14:DF:81:71:1A:66:DA:21:0A:1C:73:ED:55:3C:02:DB:49%3Bcom.example.drawermap
+    https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend&keyType=CLIENT_SIDE_ANDROID&r=13:5F:95:B5:C3:74:3E:79:B7:8D:ED:DF:F3:B1:BC:C8:5C:B4:74:E6%3Bbr.edu.ifms.rederecicla
+
+
+    You can also add your credentials to an existing key, using these values:
+
+    Package name:
+    41:39:A6:14:DF:81:71:1A:66:DA:21:0A:1C:73:ED:55:3C:02:DB:49
+
+    SHA-1 certificate fingerprint:
+    41:39:A6:14:DF:81:71:1A:66:DA:21:0A:1C:73:ED:55:3C:02:DB:49
+
+    Alternatively, follow the directions here:
+    https://developers.google.com/maps/documentation/android/start#get-key
+
+    Once you have your key (it starts with "AIza"), replace the "google_maps_key"
+    string in this file.
+
+    leandro.jesus.ms REmover
+    AIzaSyAM8ucf8aHmKzyKJqOgdNhSGq2lMZTxsI4
+
+    great.ifms
+    AIzaSyCxqkpdEPzmVoVxqU6QvGnYvfSc3elD_WE
+    -->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCxqkpdEPzmVoVxqU6QvGnYvfSc3elD_WE</string>
+
+
+</resources>

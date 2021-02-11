@@ -1,0 +1,694 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+<Document>
+  <name>Data+BalloonStyle</name>
+  <Style id="golf-balloon-style">
+    <BalloonStyle>
+     <text> <![CDATA[
+     <b>Example extended data template</b>
+     <table border="1" >
+     <tr><td>Company Name</td></tr>
+     <tr><td><i>'$[Nome]'</i></td></tr>
+     </table>
+     ]]></text>
+     <bgColor>ffffffbb</bgColor>
+     </BalloonStyle>
+  </Style>
+  <!-- Shared style sample
+        Two Placemarks use the same balloon template
+  -->
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>0</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Catador</value>
+      </Data>
+      <Data name="Nome">
+        <value>PAULO POCIDONIO &quot;PEDRO DE LARA&quot;</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinhas), plástico, garrafas pets e plástico duro.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Antônio Paes de Barros n.978 Centro-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value></value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.791108,-20.4785300000218</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>1</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>ATELIÊ VAL MOTA</value>
+      </Data>
+      <Data name="Materiais">
+        <value>vidro (conserva), plástico, garrafas pets (com tampa), metais (latas de conserva e leite).</value>
+      </Data>
+      <Data name="e_mail">
+        <value>valbenevides@outlook.com</value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Antônio Campelo n. 997 Santa Terezinha-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99878-4890</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.772529,-20.4677720000217</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>2</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Catador</value>
+      </Data>
+      <Data name="Nome">
+        <value>RUBENS CARDOSO</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinha e ferro), tetra pak (caixas de leite), vidro (jamel e vinho), garrafas pets, plástico, plástico duro, e óleo de cozinha.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Veriano Rodrigues Chagas n. 04 Vila São Pedro-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99653-6767</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.758354,-20.4614090000216</coordinates>
+    </Point>
+  </Placemark>
+
+  <!-- Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>3</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>CASAS BAHIA</value>
+      </Data>
+      <Data name="Materiais">
+        <value>baterias de aparelhos telefônicos (somente), obs: trabalham com logística reversa.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Teodoro Rondon n.865 Centro-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)3240-1200</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.792189,-20.4762840000217</coordinates>
+    </Point>
+  </Placemark -->
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>4</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>RECICLAGEM DO DEDÉ</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinha e ferro), tetra pak (caixas de leite), garrafas pets, plástico, plástico duro e óleo de cozinha.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Acogo s/n Vila Pedreira (prox. BR262)-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99914-0779</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.828582,-20.5002650000219</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>5</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>FERRO VELHO LM</value>
+      </Data>
+      <Data name="Materiais">
+        <value>metais (latinha, ferro e cobre)</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Acogo n. 2300 Vila Pedreira-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99938-9098</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.82104,-20.4881890000218</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>6</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>RECILAGEM SÃO MATHEUS</value>
+      </Data>
+      <Data name="Materiais">
+        <value>metais (latinha, ferro, cobre e alumínio).</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua das Orquideas . 03 Jardim Indepêndencia-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99322-4756</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.795577,-20.5009780000219</coordinates>
+    </Point>
+  </Placemark>
+
+   <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>7</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>FERRO VELHO VDF</value>
+      </Data>
+      <Data name="Materiais">
+        <value>metais (latinha, cobre e alumínio), tetra pak (caixas de leite), vidro, garrafas pets, plástico e plástico duro.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Coronel Ponce n.2238 Centro-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99914-4150</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.797719,-20.4884260000218</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>8</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Catador</value>
+      </Data>
+      <Data name="Nome">
+        <value>DORALICE PEREIRA</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, latinha, tetra pak (caixas de leite), garrafas pets, plástico, plástico duro, metais (ferro) e óleo de cozinha.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Campo Grande s/n Jardim Indepêndencia-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99243-5080</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.803939,-20.5036280000219</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>9</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>TORNEARIA LIDER</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, metais (cobre e alumínio).</value>
+      </Data>
+      <Data name="e_mail">
+        <value>tornearialider@hotmail.com</value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Índio Neco n.918 Jardim Curicaca-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99646-0018</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.800441,-20.4901670000218</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>10</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Catador</value>
+      </Data>
+      <Data name="Nome">
+        <value>EDVAL PIRES ALVES</value>
+      </Data>
+      <Data name="Materiais">
+        <value>metais (ferro, alumínio e cobre), geladeira e ar condicionado.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Armando Trindade n.01 Nova Aquidauana-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99662-4880</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.784386,-20.4480810000215</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <Style>
+       <LabelStyle>
+          <color>ff0000cc</color>
+       </LabelStyle>
+    </Style>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>11</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>RECICLAGEM TRANSPANTANEIRA</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinha, ferro e cobre), garrafas pets, plástico.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Filinto Müller n.86 Nova Aquidauana-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99979-4181</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.785275,-20.4468290000215</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>12</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>RECICLARORA PRINCESA DO SUL</value>
+      </Data>
+      <Data name="Materiais">
+        <value>metais (latinha, ferro e cobre).</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Armando Trindade</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99927-5864/99934-1568</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.785713,-20.4477680000215</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>13</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Catador</value>
+      </Data>
+      <Data name="Nome">
+        <value>José Fernandes da Silva (Fernandinho)</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinha e ferro), tetra pak (caixas de leite), plástico (pvc), plástico duro e óleo de cozinha.</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Mário Guerreiro s/n Vila Santa Terezinha-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67) 99273-9647</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.760592,-20.4612280000216</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>14</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>ECIPEL</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais (latinha e sucata), tetra pak (caixas de leite), garrafas pets, plástico, plástico duro e vidro (jamel e vinho).</value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua XV de Agosto n.828 Bairro Alto-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67) 99606-3403</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.788199,-20.4673310000217</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>15</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>RECICLAGEM DRAGÃO</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, metais( latinha e ferro), garrafas pets, plástico, plástico duro.</value>
+      </Data>
+      <Data name="e_mail">
+        <value>weltondenis.desouza@gamail.com</value>
+      </Data>
+      <Data name="Endereço">
+        <value>Av. Antônio Cabral, s/n, Jardim Nana Maria-Anastácio</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99891-0177</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.7908707324963,-20.4978919115965</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>16</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>ASSOCIACAO DE SEPARADORES DE RECICLAVEIS (ASSEPAR)</value>
+      </Data>
+      <Data name="Materiais">
+        <value>papel, papelão, tetra pak (caixas de leite), plástico, plástico duro, vidro (qualquer espécie), garrafas pets, metais (cobre, alumínio e ferro).
+        </value>
+      </Data>
+      <Data name="e_mail">
+        <value></value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Veriano Rodrigues Chagas s/n Vila São Pedro-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)99266-4511/99197-5281</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.7593414358496,-20.4601971653436</coordinates>
+    </Point>
+  </Placemark>
+
+  <Placemark>
+    <name></name>
+    <styleUrl>#golf-balloon-style</styleUrl>
+    <ExtendedData>
+      <Data name="altitudeMode">
+        <value>clampToGround</value>
+      </Data>
+      <Data name="FID">
+        <value>17</value>
+      </Data>
+      <Data name="Tipo">
+        <value>Sucateiro</value>
+      </Data>
+      <Data name="Nome">
+        <value>INSTITUTO NACIONAL DE PROTEÇÃO AMBIENTAL (INPA)</value>
+      </Data>
+      <Data name="Materiais">
+        <value>vidro (garrafas) e plástico (garrafas pets).</value>
+      </Data>
+      <Data name="e_mail">
+        <value>inpacursossm@gmail.com</value>
+      </Data>
+      <Data name="Endereço">
+        <value>Rua Castorina Leite de Godoy n.499 Vila Trindade-Aquidauana</value>
+      </Data>
+      <Data name="Telefone">
+        <value>(67)3241-8176/98468-3351</value>
+      </Data>
+      <Data name="Field_1">
+        <value></value>
+      </Data>
+    </ExtendedData>
+    <Point>
+      <coordinates>-55.8000263162701,-20.4535721771302</coordinates>
+    </Point>
+  </Placemark>
+
+</Document>
+</kml>
